@@ -226,7 +226,7 @@ services:
     environment:
       # - BASE_URL=":80"
       # - BASE_URL=":443" # uncomment and comment line above to enable HTTPS via custom certificate and key files
-      - BASE_URL="https://jugendarbeit.liebfrauen-ueberwasser.de:8944" # Uncomment and comment line above to enable HTTPS handling by Caddy
+      - BASE_URL=https://jugendarbeit.liebfrauen-ueberwasser.de:8944 # Uncomment and comment line above to enable HTTPS handling by Caddy
     logging: *default-logging
 
 volumes:
